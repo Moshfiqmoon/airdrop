@@ -1,0 +1,22 @@
+# requirements.txt for Telegram Airdrop Bot
+
+# Telegram Bot API
+python-telegram-bot==20.7  # Exact version for Application support
+
+# Blockchain Libraries
+web3.py>=6.0.0  # Ethereum/BSC support, latest stable as of 2023
+solders>=0.10.0  # Solana support, latest stable as of 2023
+xrpl-py>=2.0.0  # XRP Ledger support, latest stable as of 2023
+
+# HTTP Requests
+requests>=2.28.0  # General HTTP requests, stable version
+
+# File Handling
+openpyxl>=3.0.10  # Excel export, stable version
+
+# Environment Variables
+python-dotenv>=0.19.0  # Load .env files, stable version
+
+# Utility Libraries
+ratelimit>=2.2.1  # Rate limiting, stable version
+pytz>=2022.1  # Timezone support, stable version
