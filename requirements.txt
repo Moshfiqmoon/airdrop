@@ -4,7 +4,7 @@
 python-telegram-bot==20.7  # Exact version for Application support
 
 # Blockchain Libraries
-web3.py>=6.0.0  # Ethereum/BSC support, latest stable as of 2023
+web3>=6.0.0  # Ethereum/BSC support, latest stable as of 2023 (corrected from web3.py)
 solders>=0.10.0  # Solana support, latest stable as of 2023
 xrpl-py>=2.0.0  # XRP Ledger support, latest stable as of 2023
 
