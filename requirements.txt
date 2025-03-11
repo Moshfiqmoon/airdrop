@@ -1,42 +1,21 @@
-#python-telegram-bot==20.7
-#web3==6.15.0
-#requests==2.31.0
-#solders==0.21.0
-#xrpl-py>=2.2.0
-#openpyxl==3.1.2
-#python-dotenv==1.0.1
-#ratelimit==2.2.1
-#pytz==2024.1
-
-# Core Python libraries (typically included in standard library, but listed for clarity)
-asyncio==3.4.3  # Already part of Python 3.7+, but specifying for explicitness
-sqlite3  # Built-in, no need to install separately
-os  # Built-in
-random  # Built-in
-logging  # Built-in
-re  # Built-in
-datetime  # Built-in
-typing  # Built-in since Python 3.5+
-
-# Telegram integration
-python-telegram-bot==20.7  # For telegram.ext and related functionality
-
-# Discord integration
-discord.py==2.3.2  # For discord and discord.ext.commands
-
-# Blockchain libraries
-web3.py==6.15.0  # For Ethereum and BSC interactions (Web3)
-requests==2.31.0  # For HTTP requests (used in Solana client and general API calls)
-solders==0.21.0  # For Solana keypair, pubkey, transaction handling
-xrpl-py==2.3.0  # For XRP Ledger interactions (JsonRpcClient, Wallet, Payment)
-
-# Utilities
-openpyxl==3.1.2  # For Excel file generation (Workbook)
-python-dotenv==1.0.1  # For loading environment variables (load_dotenv)
-ratelimit==2.2.1  # For rate limiting API calls
-json  # Built-in
-hashlib  # Built-in
-pytz==2024.1  # For timezone handling
-
-# Optional: For better development and debugging
-aiohttp==3.9.3  # Recommended by python-telegram-bot for async HTTP requests
+asyncio==3.4.3  
+sqlite3  #
+os  
+random  
+logging 
+re  
+datetime  
+typing 
+python-telegram-bot==20.7 
+discord.py==2.3.2  
+web3.py==6.15.0  
+requests==2.31.0  
+solders==0.21.0  
+xrpl-py>=2.2.0  
+openpyxl==3.1.2  
+python-dotenv==1.0.1  
+ratelimit==2.2.1  
+json  
+hashlib  
+pytz==2024.1  
+aiohttp==3.9.3  
