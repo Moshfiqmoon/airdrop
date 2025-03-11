@@ -1,5 +1,4 @@
 asyncio==3.4.3  
-sqlite3  #
 os  
 random  
 logging 
