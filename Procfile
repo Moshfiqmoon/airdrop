@@ -1,1 +1,2 @@
-worker: python bot.py
+web: python bot.py
+worker: PROCESS_TYPE=worker python bot.py
