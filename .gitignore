@@ -1,0 +1,6 @@
+*.pyc
+__pycache__/
+*.log
+airdrop.db
+.env
+airdrop_log.xlsx
